@@ -1,0 +1,36 @@
+{
+  "name": "@burlzad/ddd",
+  "version": "0.0.3",
+  "author": "52782469+alexburley@users.noreply.github.com.",
+  "description": "TODO",
+  "keywords": [
+    "TODO"
+  ],
+  "homepage": "https://github.com/TODO",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "check-format": "prettier --check .",
+    "lint": "prettier --write .",
+    "check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
+    "ci": "npm run build && npm run check-format && npm run check-exports && npm run test",
+    "test": "vitest run",
+    "prepublishOnly": "npm run ci",
+    "local-release": "npm run ci && changeset version && changeset publish",
+    "version": "npx changeset"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "^0.15.4",
+    "@changesets/cli": "^2.27.8",
+    "@types/node": "^22.5.0",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "vitest": "^2.1.1"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "type": "module"
+}

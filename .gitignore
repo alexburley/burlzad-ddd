@@ -1,0 +1,6 @@
+node_modules
+dist
+.vscode
+@burlzad-ddd-*
+package
+.DS_Store
