@@ -1,6 +1,6 @@
 {
   "name": "@burlzad/ddd",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "52782469+alexburley@users.noreply.github.com.",
   "description": "A zero dependency utility library to create simple and reusable DDD style classes",
   "keywords": [
