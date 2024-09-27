@@ -2,11 +2,13 @@
   "name": "@burlzad/ddd",
   "version": "0.0.3",
   "author": "52782469+alexburley@users.noreply.github.com.",
-  "description": "TODO",
+  "description": "A zero dependency utility library to create simple and reusable DDD style classes",
   "keywords": [
-    "TODO"
+    "ddd",
+    "backend",
+    "repository"
   ],
-  "homepage": "https://github.com/TODO",
+  "homepage": "https://github.com/alexburley/burlzad-ddd",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
